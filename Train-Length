@@ -1,0 +1,9 @@
+'''A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train'''
+input  : speed,time
+output : meters
+
+speed=60
+speed1=60*5/18
+time=9
+print(f'Units Must be same in speed {speed} km/hr and time is in {time}seconds so change the speed of train in meter/sec = {speed*5/18}')
+print(f'The Length of Train ={speed1*time}meters')
