@@ -1,0 +1,11 @@
+'''
+A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is'''
+
+Train=125
+manspeed=5
+speed=5*5/18
+time=10
+print(f'The length of Train = {Train}meters\na Man running in the same direction of Train with a speed ={speed}')
+print(f'The Train passes the man in {time}seconds')
+speed1=(Train/time)*(18/5)
+print(f'The Train and man moving in same direction so speeds should be subtracted\nThe speed of Train = {speed1+manspeed}km/second')
