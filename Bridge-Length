@@ -1,0 +1,9 @@
+'''The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is'''
+
+Train=130
+speed=45*5/18
+time=30
+print("The length of Bridge to find")
+print("The Bridge Length + Train Length = Total Distance")
+Bridge_Length=speed*time-Train
+print(f'The length of bridge = {Bridge_Length}')
