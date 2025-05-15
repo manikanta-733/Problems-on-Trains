@@ -1,0 +1,14 @@
+'''
+Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is'''
+
+
+from fractions import Fraction
+time_A = 27  
+time_B = 17 
+time_cross = 23
+print("s1*27=s2*17\n")
+print("(s1*27+s2*17)=(s1+s2)*23\n")
+print("27s1+17s2=23s1+23s2\n27s1-23s1=23s2-17s2\n")
+print("4s1=6s2\n(s1/s2)=(6/4)\n")
+ratio = Fraction(6, 4) 
+print(f"The ratio of speeds of the trains is {ratio.numerator}:{ratio.denominator}")
