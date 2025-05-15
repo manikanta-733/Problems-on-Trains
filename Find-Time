@@ -1,0 +1,9 @@
+'''A train 240 m long passes a pole in 24 seconds. How long will it take to pass a platform 650 m long'''
+
+Train=240
+Time=24
+print(f'The Train passes the pole disttance is train lenght = {Train}meters\nTime = {Time}seconds')
+print(f'The speed of Train = {Train/Time}m/sec')
+Platform=650
+print(f'Now The Distance = {Platform+Train}meters')
+print(f'Time Taken By Train to pass a platform = {(Platform+Train)/(Train/Time)}seconds')
